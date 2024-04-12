@@ -1,0 +1,28 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #1A1C1E;
+    height: 100vh;
+    font-family: 'open sans',sans-serif;
+    flex-direction: column;
+}
+
+.widget{
+    max-width: 600px;
+    min-width: 300px;
+    padding: 16px;
+    border-radius: 32px;
+    background-color:  #1E2023;
+    width: 100%;
+}
+
+.widget canvas{
+    min-height: 280px;
+}
